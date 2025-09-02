@@ -1,0 +1,29 @@
+/* Ensure the footer sticks to the bottom */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    padding-bottom: 0rem;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1; /* Push footer to the bottom */
+    min-height: calc(100vh - 80px); /* Adjust based on footer height */
+}
+
+/* Footer styles */
+footer {
+    margin-bottom: 0px; /* Push footer down when content is short */
+}
+
+/* Custom link styles */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+

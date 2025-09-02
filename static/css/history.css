@@ -1,0 +1,124 @@
+body {
+    background-color: #edf2f7;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.history-wrapper {
+    flex: 1; /* This makes the main content take the remaining space */
+    padding: 40px 15px;
+    background: #edf2f7;
+}
+
+.history-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.history-header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2d3748;
+}
+
+.history-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-history {
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.active-btn {
+    background-color: #3182ce; /* Blue color */
+    color: white;             /* White text */
+    border: none;             /* Optional: Remove border for a cleaner look */
+}
+
+.history-buttons .btn-history.active-btn {
+    background-color: #3182ce !important; /* Force it to blue */
+    color: white !important;             /* Force it to white */
+    border: none;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #3182ce;
+    color: #ffffff;
+}
+
+table thead th {
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+table tbody tr:last-child {
+    border-bottom: none;
+}
+
+table tbody td {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: #4a5568;
+}
+
+table tbody tr:hover {
+    background-color: #f7fafc;
+}
+
+.status-success {
+    color: #38a169;
+    font-weight: 600;
+}
+
+.status-failed {
+    color: #e53e3e;
+    font-weight: 600;
+}
+
+.status-pending {
+    color: #d69e2e;
+    font-weight: 600;
+}
+
+.type-sent {
+    color: #e53e3e;
+    font-weight: 600;
+}
+
+.type-received {
+    color: #3182ce;
+    font-weight: 600;
+}
+
+.note {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #a0aec0;
+}

@@ -1,0 +1,2 @@
+email, password
+john@gmail.com, 5678
